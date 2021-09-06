@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Bootstrap 
-gem 'bootstrap-sass', '3.3.6'
+gem 'bootstrap-sass', '~> 3.3.6'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -46,7 +46,6 @@ end
 
 group :production do
   gem 'pg', '~> 0.20'
-  gem 'rails_12factor'
 end
 
 group :development do
