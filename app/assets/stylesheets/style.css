@@ -1,10 +1,11 @@
+/*Home page styling*/
+
 h1{
-  color:red;
+  color:#252625;
   margin: 40px 52px;
 }
 
 img{
-  height:400px;
   border: 2px solid black;
 
 }
@@ -18,7 +19,11 @@ img{
   margin-left: auto;
   margin-right: auto;
   margin-top:50px;
-  height:  100px;
+  height:  300px;
+}
+
+.navstyle a {
+color: #27cc53;
 }
 
 a:hover{
@@ -30,4 +35,47 @@ a:hover{
   text-align:center;
   margin: 50px 50px;
   background-color:#04AA6D;
+}
+
+#navfont li a {
+    margin-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    font-size: medium;
+    color: limegreen;
+}
+
+#navfont li a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+body{
+  background-color: #78827d;
+}
+
+
+
+/*Contact Page styling */
+.contact_para{
+  font-size: medium;
+  color: black;
+  margin-top: 60px;
+  margin-left: 52px;
+}
+
+/*About page styling*/
+
+.about_para{
+  font-size: medium;
+  color: black;
+
+  margin-top: 60px;
+  margin-left: 52px;
+
+}
+
+#form_top{
+ width: 40%;
 }
