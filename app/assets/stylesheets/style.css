@@ -70,7 +70,6 @@ body{
 .about_para{
   font-size: medium;
   color: black;
-
   margin-top: 60px;
   margin-left: 52px;
 
@@ -78,4 +77,13 @@ body{
 
 #form_top{
  width: 40%;
+}
+
+/*FAQ age styling*/
+.faq_para{
+  font-size: medium;
+  color: black;
+  margin-top: 60px;
+  margin-left: 52px;
+
 }
