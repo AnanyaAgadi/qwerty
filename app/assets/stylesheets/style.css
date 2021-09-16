@@ -79,7 +79,7 @@ body{
  width: 40%;
 }
 
-/*FAQ age styling*/
+/***FAQ age styling***/
 .faq_para{
   font-size: medium;
   color: black;
@@ -94,3 +94,24 @@ body{
   height: 900px;
   width: 600px;
 }
+
+/***Orders page styling***/
+
+#order-p p {
+  margin-left: 52px;
+  font-size: 19px;
+}
+
+#oid{
+  color: cornflowerblue;
+}
+
+#order-det p {
+  font-size: 19px;
+}
+
+#order-det h2{
+  font-size: 30px;
+  font-weight: heavy;
+}
+
