@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Was stuck with a Dynos error at the last part of deployment. Followed the below to fix it and was able to deploy site successfully.
+https://stackoverflow.com/questions/34727605/heroku-cannot-run-more-than-1-free-size-dynos 
