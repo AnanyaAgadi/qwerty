@@ -32,3 +32,7 @@
 </div>
 <!-- # Below is the dummy parameter that gets converted to an integer checking 5.2 params -->
 <%= params[:example_key].to_i* 10 %>
+
+<%= form_with(url: '/products', local: true) do |form| %>
+<p>Form contents</p>
+<% end %>
