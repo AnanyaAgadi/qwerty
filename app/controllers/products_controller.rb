@@ -82,20 +82,4 @@ end
   # called params.
 
 
-# PUT POST PATCH 
- 
-# According to rails convention,
-
-# PUT is used for updating an existing resource
-
-# POST is used for creating a new resource
-
-# In rails 4, PUT has been changed to PATCH to avoid confusion.
-
-# A request using the POST method should act upon the resource collection; adding a new resource to the collection.Example URL: http://example.com/resources
-
-# A request using the PUT HTTP verb should act upon a single resource within the collection; replacing the resource wholly upon the server Example URL: http://example.com/resource/1
-
-# A request using the PATCH HTTP verb should act upon a single resource within the collection; updating certain attributes upon the resource where it stands Example URL: http://example.com/resource/1
-
-# Rails 4 now makes use of the PATCH verb over the PUT verb for updating a resource.
+#
