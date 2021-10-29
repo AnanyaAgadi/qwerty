@@ -55,7 +55,11 @@ body{
   background-color: #78827d;
 }
 
-
+.notice_txt{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
 
 /*Contact Page styling */
 .contact_para{
@@ -63,6 +67,21 @@ body{
   color: black;
   margin-top: 60px;
   margin-left: 52px;
+}
+
+/*Sign UP page styling*/
+
+.sign_sty{
+  font-size: 10px;
+  color: white;
+}
+/*sign in page styling*/
+.signin_body{
+  background-color: #b7e8c4;
+}
+
+#signin .field, h2 {
+  color: #2222e6;
 }
 
 /*About page styling*/
