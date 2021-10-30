@@ -71,7 +71,7 @@ class ProductsController < ApplicationController
     def product_params
       params.require(:product).permit(:name, :description, :image_url, :price)
     end
-end
+  end
 
 # steps on creating a search option that filters out and gives us appropriate results
 # Add the erb for the form using form_with. Mention an attribute for each form field
