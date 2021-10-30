@@ -64,9 +64,9 @@
   </div>
 </nav>
 
- <p class="notice_txt"><b><%= flash[:notice] = "You have successfully signed-in"%></b></p>
+ 
   
-    
+    <%= render 'layouts/alerts' %>
     <%= yield %>
     <footer class="foot-below">
       &copy; 2018 Bike Berlin

@@ -26,7 +26,8 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # Launchy gem in support for letter_opener
-
+# Authorization
+gem 'cancancan', '~> 1.10'
 # Bootstrap 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sassc-rails', '2.1.0'
