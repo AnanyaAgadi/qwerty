@@ -23,6 +23,7 @@
 
 <%= link_to 'Edit', edit_product_path(@product) , class:"bottom-l" %> |
 <%= link_to 'Back', products_path , class:"bottom-l" %>
-
+<%= @product.highest_rating_comment %>
 </div>
 
+<%= render 'new_comment' %>

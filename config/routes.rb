@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   
   devise_for :users
-  resources :products
+
+  resources :products do
+    resources :comments
+  end
+  
   resources :users 
   resources :orders, only: [:index,:show,:create,:destroy]
   # Below is the dummy parameter checking 5.2 params
