@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   post 'simple_pages/thank_you'
   get 'simple_pages/rails/mailers/user_mailer'
 
+  delete 'products/product_path'
   
 
     # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

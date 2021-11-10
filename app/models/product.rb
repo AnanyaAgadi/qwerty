@@ -1,4 +1,7 @@
   class Product < ApplicationRecord
+  # 5.9 adding validation for presence of name for any new product created
+    validates :name, presence: true 
+    validates :price, presence: true
   # 5.2 adding the search functionality query below
   has_many :comments
   
@@ -13,7 +16,6 @@
 
   def average_rating
     comments.average(:rating).to_f
-    
   end
   
 end
