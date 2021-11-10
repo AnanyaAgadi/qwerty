@@ -21,9 +21,12 @@
   <%= @product.price %>
 </p>
 
+<p>Average Rating: <div class="rated" data-score="<%=
+@product.average_rating %>"></div> </p>
+
 <%= link_to 'Edit', edit_product_path(@product) , class:"bottom-l" %> |
 <%= link_to 'Back', products_path , class:"bottom-l" %>
-<%=  @product.comments.first.body %>
+<%=  @product.comments.first.body rescue nil %>
 </div>
 
 <%= render 'comments' %>
