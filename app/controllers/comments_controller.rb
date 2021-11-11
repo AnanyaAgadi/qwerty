@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+  load_and_authorize_resource
   def index
     @comments = Comment.all.order("created_at DESC").paginate(page: params[:page], per_page: 4)
     
@@ -22,7 +23,10 @@ class CommentsController < ApplicationController
   end
 
   def destroy
-    
+    @comment = Comment.find(params[:id])
+    product = @comment.product
+    @comment.destroy
+    redirect_to product
   end
 
   private 
