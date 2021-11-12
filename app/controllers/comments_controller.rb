@@ -1,13 +1,14 @@
 class CommentsController < ApplicationController
   load_and_authorize_resource
   def index
-    @comments = Comment.all.order("created_at DESC").paginate(page: params[:page], per_page: 4)
-    
+    @comments = @products.comment.paginate(page: params[:page], per_page: 4)
   end
+  
   def create
     @product = Product.find(params[:product_id])
     @comment = @product.comments.new(comment_params)
     # @comments = Comments.paginate(page: params[:page], per_page: 4)
+    # @comments = @products.comment.paginate(page: params[:page], per_page: 4)
     @comment.user = current_user
       
     respond_to do |format|

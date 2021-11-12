@@ -13,6 +13,7 @@
       <%= link_to ('<span class= "glyphicon glyphicon-remove"></span>').html_safe, product_comment_path(comment.product, comment), method: :delete, data: { confirm: 'Are you sure?' } %>
     <% end %>
   <% end %>
+  <%= will_paginate @comments %>
 </div>
  
 </div>
@@ -20,3 +21,5 @@
 <!-- Notes -->
 <!-- in case u are looking just for the Delete link, follow the below , line 13-->
 <!--  link_to 'Delete', product_comment_path(comment.product, comment), method: :delete, data: { confirm: 'Are you sure?' }  -->
+
+<!-- @comments = @products.comment.paginate(page: params[:page], per_page: 4) -->
