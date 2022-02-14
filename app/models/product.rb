@@ -1,10 +1,11 @@
-  class Product < ApplicationRecord
+class Product < ApplicationRecord
   # 5.9 adding validation for presence of name for any new product created
-    validates :name, presence: true 
-    validates :price, presence: true
-  # 5.2 adding the search functionality query below
+  validates :name, presence: true 
+  validates :price, presence: true
+  
   has_many :comments
   
+  # 5.2 adding the search functionality query below
   def self.search(search_term)
     Product.where("name LIKE?", "%#{search_term}%")
   end

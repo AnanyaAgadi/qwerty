@@ -38,6 +38,7 @@ gem 'sassc-rails', '2.1.0'
 # gem 'mini_magick', '~> 4.8'
 gem 'jquery-rails'
 
+
 # Pagination
 gem 'will_paginate', '~> 3.3.0'
 
@@ -67,6 +68,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
 
 
 

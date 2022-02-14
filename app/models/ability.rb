@@ -43,3 +43,5 @@ class Ability
     # https://github.com/CanCanCommunity/cancancan/wiki/Defining-Abilities
   
 end
+
+# https://stackoverflow.com/questions/30515543/error-undefined-method-admin-for-nilnilclass
